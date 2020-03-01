@@ -92,7 +92,7 @@ def find_next(results,next,origin, pos):
 
 def csv_tolist():
     results = []
-    with open("/Users/teamdevadze/PycharmProjects/wichacks-trip-planner/app/idk.csv") as csvfile:
+    with open("app/idk.csv") as csvfile:
         reader = csv.reader(csvfile, delimiter=',')  # change contents to floats
         for row in reader:  # each row is a list
             results.append(row)
